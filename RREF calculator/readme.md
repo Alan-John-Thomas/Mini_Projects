@@ -3,7 +3,7 @@ Matrix REF & RREF Calculator (Python)
 This project computes the Row Echelon Form (REF) and Reduced Row Echelon Form (RREF) of a matrix using exact rational arithmetic via Python’s fractions.Fraction module.
 It avoids floating-point errors by working entirely with fractions.
 
-✨ Features
+ Features
 
 ✅ Computes REF (Row Echelon Form)
 ✅ Computes RREF (Reduced Row Echelon Form)
@@ -12,7 +12,7 @@ It avoids floating-point errors by working entirely with fractions.
 ✅ Automatically arranges rows based on pivot positions
 ✅ Supports any matrix size
 
-📦 Requirements
+ Requirements
 
 Python standard library only:
 Python 3.x
@@ -28,7 +28,7 @@ cd <your-project-folder>
 Run the program:
 python filename.py
 
-📥 Input Format
+ Input Format
 
 Step 1: Enter Matrix Size
 enter the number of rows: 3
@@ -53,7 +53,7 @@ Step 4 (RREF Only): Print Steps Option
 1. Print steps
 2. Don't print steps
 
-📤 Output Example
+ Output Example
 
 For RREF:
 
@@ -66,7 +66,7 @@ the RREF of the matrix is:
 Fractions appear as:
 3/2 , -5/4 , etc.
 
-⚙ How It Works (Internals)
+How It Works (Internals)
 
 Algorithm Used
 
@@ -89,21 +89,9 @@ Example:
 0.1 + 0.2 ≠ 0.3 (exactly)
 This project avoids that by using:
 from fractions import Fraction
-So results are mathematically exact ✅
+So results are mathematically exact 
 
-📁 Project Structure
 
-project-folder/
-│
-├── main.py (your file)
-├── README.md
-
-🚀 Future Improvements (Optional Ideas)
-
-Add matrix determinant
-Add inverse calculation
-GUI version (Tkinter / Web)
-Input from file
 Matrix rank calculation
 
 🧑‍💻 Author
