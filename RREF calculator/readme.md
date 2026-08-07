@@ -82,7 +82,7 @@ Exact fraction arithmetic
 Forward elimination (REF)
 Forward + backward elimination (RREF)
 
-🧠 Why Fractions Instead of Floats?
+Why Fractions Instead of Floats?
 
 Floating-point arithmetic causes rounding errors:
 Example:
